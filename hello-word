@@ -1,7 +1,13 @@
 print('Hello World')
 
+# Ask for the two numbers
 print('Give me two numbers')
 X = input("Please enter a number 1: ")
 Y = input("Please enter a number 2: ")
 Z = X + Y
+
+# Convert input strings to integers
+X = int(X)
+Y = int(Y)
+
 print(f'The Sum of the two numbers you provided is:{Z}')
